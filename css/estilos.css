@@ -1,0 +1,121 @@
+/* CSS Document */
+body{
+	background-image: url(../img/Under-The-Sea.jpg);
+	background-color: rgba(12,216,188,0.1);
+	background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.barra-superior{
+  min-height: 7rem;
+	box-shadow: 5px 5px 5px 1px grey;
+}
+
+.barra-superior img{
+	margin-top: 0.5rem;
+	margin-left: 2rem;
+	height: 10rem;
+	background-color: white;
+	box-shadow: 2px 2px 5px 1px grey;
+	}
+
+.barra-superior ul{
+	margin-top: 1.3rem;
+}
+
+.menu-solo i{
+  margin-top: 10px;
+}
+
+.slogan	h5{
+	text-align: left;
+	}
+
+.galeria {
+	background-color: #01579b;
+	padding-top: 50px;	
+	}
+
+.redes {
+	margin-top: 4%;	
+}
+
+.redes img{
+	margin-top: 50%;
+}
+
+.galeria img{
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	border: 0.3rem solid white;
+}
+
+.img1 {
+	margin-top: 9.6%;
+}
+
+@media (max-width: 600px) {
+  .img1{
+    margin-top: 0 !important;
+		
+  }
+}
+
+.ult {
+	width: 90%;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+  .ult{
+    width: 100% !important;
+		
+  }
+}
+
+blockquote{
+	margin: 20px 0;
+  border-left: 15px solid #01579b; /* Just change the color value and that's it*/
+}
+
+.blog p {
+	text-align: justify;
+	margin-right: 10px;
+}
+.blog img{
+	width: 50%;
+	border: 2px solid;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.blog h4{
+	color: #01579b;
+}
+
+.blog h5{
+	color: #01579b;
+}
+
+.publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+	width: 98%;
+  resize: none;
+  height: 2rem;
+}
+
+.enviar {
+	margin-right: 16px;
+}
+
+.autor img{
+	width: 200px;
+	height: 200px;
+	align-content: center;
+}
